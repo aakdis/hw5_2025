@@ -34,16 +34,16 @@ body {
 /* Use flexbox for the header to center the content as shown in the example at 720px. */
 header {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
 /* #4 */
 /* Use flexbox for the nav_links class to align the navigation links properly. 
    Modify the nav_links class (do not modify the list items or links). */
 .nav_links {
-    display: flex;
     flex-direction: column;
+    display: flex;
     color: blue; /* Ensure color of links */
 }
 
@@ -60,8 +60,8 @@ header {
     background: #288088;
     border: 2px solid #45ADAD;
     padding: 20px 0;
-    border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
     flex-basis: 450px;
     margin: 0;
 }
@@ -73,31 +73,31 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    border-bottom-left-radius: 0;
+    border-top-left-radius: 50px;
     border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
     flex-basis: 450px;
 }
 
 /* Use flexbox for the pricing class to center the cards both horizontally and vertically. */
 .pricing {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 /* #9 */
 /* Style the images in the gallery class with a solid 10px border (#50C7C7), 10px margin, and a width of 300px. */
 .gallery img {
     border: 10px solid #50C7C7;
-    margin: 10px;
     width: 300px;
+    margin: 10px;
     height: auto;
 }
 
@@ -119,8 +119,8 @@ header {
     header {
         justify-content: space-between;
         align-items: center;
-        flex-wrap: nowrap;
         flex-direction: row;
+        flex-wrap: nowrap;
     }
     
     .nav_links {
@@ -181,10 +181,10 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
-        border-top-left-radius: 50px;
         border-top-right-radius: 50px;
-        border-bottom-left-radius: 0;
+        border-top-left-radius: 50px;
         border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
         flex-basis: 350px;
         margin: 10px; /* Ensure space between cards */
     }
@@ -268,8 +268,8 @@ header {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: flex-end;
         align-items: flex-end;
+        justify-content: flex-end;
     }
 
     .card button {
@@ -299,4 +299,3 @@ header {
         content: '👍'; 
     }
 }
- 
